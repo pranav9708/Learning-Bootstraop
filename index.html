@@ -9,22 +9,32 @@
 </head>
 <body>
     <div class="container">
-        <!-- for screen < lg it will have cols in each row and for screen > lg it will have 3 cols in each row -->
-        <!-- <div class="row row-cols-2 row-cols-lg-3"> -->
-            <!-- g for both, gy &gx is for gaps between rows vertically and horizontally -->
-            <div class="row row-cols-2 gy-5 gy-lg-2">
-            <!-- if col value add upto more than 12 it will wrap -->
-            <!-- if you dont hardcode a value after col and specify all others col with lg/md/xl.. it is going to take 100% width like below -->
-            <div class="col">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vel, suscipit rerum fugit deleniti assumenda excepturi pariatur provident cupiditate ad doloremque iste aut repellat quasi sint ipsam nostrum repudiandae quidem! Unde officiis debitis, consequatur, nisi sit, sint saepe alias hic tempora laborum fugit itaque ipsam et quasi fuga explicabo provident.
-            </div>
-            <div class="col">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dignissimos enim voluptates animi, earum pariatur sint corporis officia culpa ad alias rerum commodi, reprehenderit fugit obcaecati quod iste porro veniam!
-            </div>
-            <div class="col">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dignissimos enim voluptates animi, earum pariatur sint corporis officia culpa ad alias rerum commodi, reprehenderit fugit obcaecati quod iste porro veniam!
-            </div>
-        </div>
+        <table class="table table-warning table-hover table-bordered">
+            <thead>
+                <tr class="table-info">
+                    <th>First</th>
+                    <th>second</th>
+                    <th>third</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <td>kyle</td>
+                    <td>cook</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>sally</td>
+                    <td>thorn</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>jim</td>
+                    <td>smith</td>
+                    <td>48</td>
+                </tr>
+            </tbody>
+        </table>
     </div>  
 </body>
 </html>
